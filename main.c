@@ -14,7 +14,7 @@ int main(void) {
 	        if(a[i]=='P')
 	        q++;
 	   float attendance = q/n;
-	    int count = 0;
+	    int count = 1;
 	    
 	    for(int i = 2; i<n1-2 && attendance < 0.75; i++ ){
 	    if(a[i]== 'A' && (a[i+2] == 'P' || a[i+1] == 'P') && (a[i-2]== 'P' || a[i-1]== 'P')  ){
